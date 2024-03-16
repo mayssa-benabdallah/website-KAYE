@@ -1,23 +1,22 @@
-import { IconBrandGithub, IconBrandLinkedin, IconBrandX } from '@tabler/icons-react';
+import { IconBrandGithub, IconBrandLinkedin, IconBrandX ,  IconBrandInstagram ,  IconBrandFacebook ,   IconMailbox } from '@tabler/icons-react';
 
     const SocialData = [
         {
-            icon: IconBrandLinkedin,
-            title: "Linkedin",
-            link: "https://www.linkedin.com/in/chriswaitt/",
-            username: "@chriswaitt",
-        },
-        {
-            icon: IconBrandGithub,
-            title: "Github",
-            link: "https://github.com/greengem",
-            username: "@greengem",
-        },
-        {
-            icon: IconBrandX,
-            title: "Twitter / X",
+            icon: IconBrandInstagram ,
+            title: "Instagram",
             link: "https://twitter.com/cwaitt_dev",
-            username: "@cwaitt_dev",
+            username: "KAYE-SOLUTION",
+        },
+        {
+            icon: IconBrandFacebook,
+            title: "Facebbok",
+            link: "https://github.com/greengem",
+            username: "KAYE-SOLUTION",
+        },
+        {
+            icon: IconMailbox ,
+            title: "Email",
+            username: "kaye.solution@gmail.com",
         },
     ];
 

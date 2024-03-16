@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Chris Waitt - Terms of Service',
-  description: 'Review the terms and conditions for using Chris Waitt\'s full stack developer portfolio. Understand the guidelines and policies that govern interactions and usage of the site\'s content and resources.',
+  title: 'KAYE - Terms of Service',
+  description: 'Review the terms and conditions for using KAYE\'s full stack developer portfolio. Understand the guidelines and policies that govern interactions and usage of the site\'s content and resources.',
   openGraph: {
-    title: 'Chris Waitt - Terms of Service',
-    description: 'Review the terms and conditions for using Chris Waitt\'s full stack developer portfolio. Understand the guidelines and policies that govern interactions and usage of the site\'s content and resources.',
+    title: 'KAYE - Terms of Service',
+    description: 'Review the terms and conditions for using KAYE\'s full stack developer portfolio. Understand the guidelines and policies that govern interactions and usage of the site\'s content and resources.',
     url: '/terms',
-    siteName: 'Chris Waitt - Full Stack Developer Portfolio',
+    siteName: 'KAYE',
     images: [
       {
         url: 'myimage.jpg',
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chris Waitt - Terms of Service',
-    description: 'Review the terms and conditions for using Chris Waitt\'s full stack developer portfolio. Understand the guidelines and policies that govern interactions and usage of the site\'s content and resources.',
+    title: 'KAYE - Terms of Service',
+    description: 'Review the terms and conditions for using KAYE\'s full stack developer portfolio. Understand the guidelines and policies that govern interactions and usage of the site\'s content and resources.',
     creator: '@cwaitt_dev',
     images: 'image.jpg',
   },

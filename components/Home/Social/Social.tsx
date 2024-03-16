@@ -9,7 +9,7 @@ export default function AppSocial() {
     return (
         <HomeSection id='social'>
             <Container>
-                <Heading title="Let's Collaborate" />
+            <Heading title="Contacter nous " className="text-2xl" /> {/* Apply text-2xl to make the heading size 18px */}
                 <SocialText />
                 <ContactForm />
                 <SocialCards />

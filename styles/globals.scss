@@ -4,7 +4,6 @@
 
 #hero {
     position: relative;
-    background-image: url('/images/hero/hero1-shrink.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,5 +39,20 @@ html.light{
     background-color: rgb(238, 233, 241);
 }
 html.dark{
-    background-color: rgb(16, 15, 16);
+    background-color: #08033d;
 }
+.horizontal-container {
+    display: flex;
+    justify-content: space-between; /* Ajustez selon vos besoins */
+  }
+
+  .mb-1 {
+    margin-bottom: -0.75rem !important;
+}
+
+
+.lg\:text-6xl {
+    font-size: 227%;
+}
+
+  

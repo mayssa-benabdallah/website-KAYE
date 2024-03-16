@@ -5,6 +5,9 @@ import { usePathname } from 'next/navigation';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import { ThemeSwitcher } from "@/components/Helpers/DarkModeToggle/DarkModeToggle";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import Image from "next/image";
+
 
 export default function AppNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -25,14 +28,20 @@ export default function AppNavbar() {
   return (
     <Navbar maxWidth="xl" onMenuOpenChange={setIsMenuOpen} className='dark:bg-content1 border-b-1 border-secondary'>
       <NavbarBrand>
-        <Link color="foreground" href="/" as={NextLink} className="font-semibold tracking-tight uppercase">
-          Chris Waitt <span className="text-gray-500 ml-1">Portfolio</span>
-        </Link>
+      <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce>
+            <Image
+                width={200}
+                height={200}
+                alt="NextUI hero Image"
+                src="/images/hero/logokaye.png"
+                className='shadow-lg rounded-xl'
+            />
+            </AnimationOnScroll>
       </NavbarBrand>
       
-      <NavbarContent className="hidden sm:flex gap-4" justify="end">
-        <NavbarLink href="/projects">Projects</NavbarLink>
-        <NavbarLink href="/tech-stack">Tech Stack</NavbarLink>
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        <NavbarLink href="/#about">c'est quoi</NavbarLink>
+        <NavbarLink href="/tech-stack">télécharger</NavbarLink>
         <NavbarLink href="/#social">Contact</NavbarLink>
       </NavbarContent>
       

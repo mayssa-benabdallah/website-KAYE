@@ -21,13 +21,13 @@ export function generateViewport() {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://cwaitt.dev'),
-  title: 'Chris Waitt - Full Stack Developer Portfolio',
+  title: 'KAYE ',
   description: 'A showcase of my full stack development projects and expertise.',
   openGraph: {
-    title: 'Chris Waitt - Full Stack Developer Portfolio',
+    title: 'KAYE',
     description: 'A showcase of my full stack development projects and expertise.',
     url: 'https://cwaitt.dev/',
-    siteName: 'Chris Waitt - Full Stack Developer Portfolio',
+    siteName: 'KAYE',
     images: [
       {
         url: 'myimage.jpg',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chris Waitt - Full Stack Developer Portfolio',
+    title: 'KAYE',
     description: 'A showcase of my full stack development projects and expertise.',
     creator: '@cwaitt_dev',
     images: 'image.jpg',

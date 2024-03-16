@@ -6,15 +6,14 @@ export default function AppFooter() {
   return (
     <footer className="bg-[#121212] text-white pt-20 pb-10">
         <Container>
-            <h2 className="custom-heading from-[#5EA2EF] to-[#0072F5] text-3xl mb-8">Discover More</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                 <div>
                     <h3 className="text-xl font-semibold mb-4">Links</h3>
                     <ul className="space-y-3">
-                        <li><Link color='secondary' href="#" as={NextLink} className="hover:text-[#FF1CF7]">Back to the top</Link></li>
-                        <li><Link color='secondary' href="/projects" as={NextLink} className="hover:text-[#FF1CF7]">View my Projects</Link></li>
-                        <li><Link color='secondary' href="/tech-stack" as={NextLink} className="hover:text-[#FF1CF7]">Tech Stack</Link></li>
-                        <li><Link color='secondary' href="/terms" as={NextLink} className="hover:text-[#FF1CF7]">Terms & Conditions</Link></li>
+                        <li><Link color='secondary' href="#" as={NextLink} className="text-[#feba3d]">Back to the top</Link></li>
+                        <li><Link color='secondary' href="/projects" as={NextLink} className="text-[#feba3d]">View my Projects</Link></li>
+                        <li><Link color='secondary' href="/tech-stack" as={NextLink} className="text-[#feba3d]">Tech Stack</Link></li>
+                        <li><Link color='secondary' href="/terms" as={NextLink} className="text-[#feba3d]">Mention légales</Link></li>
                     </ul>
                 </div>
                 <div>
@@ -23,7 +22,7 @@ export default function AppFooter() {
                 </div>
             </div>
             <div className="text-center border-t border-gray-700 pt-8">
-                <p className="text-sm">© 2023 Chris Waitt. All Rights Reserved.</p>
+                <p className="text-sm">© 2024 KAYE. All Rights Reserved.</p>
             </div>
         </Container>
     </footer>

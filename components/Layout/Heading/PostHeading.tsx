@@ -9,7 +9,7 @@ export default function PostHeading({ title }) {
             mb-1 
             md:mb-3 
         '>
-            <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#FF1CF7] to-[#b249f8]">
+            <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#feba3d] to-[#feba3d]">
                 {title}
             </span>
         </h1>

@@ -28,9 +28,9 @@ export const ContactForm = () => {
 
   return (
     <>
-      <Button size='lg' onPress={onOpen} className='mb-5 gap-unit-1 bg-gradient-to-tr from-[#FF1CF7] to-[#b249f8] text-white shadow-lg'>
+      <Button size='lg' onPress={onOpen} className='mb-5 gap-unit-1 bg-gradient-to-tr from-[#feba3d] to-[#feba3d] text-white shadow-lg'>
         <IconMailFilled />
-        Contact Form
+        Formulaire de contact 
       </Button>
 
       <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
@@ -40,15 +40,15 @@ export const ContactForm = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <ModalHeader className="flex flex-col gap-1">Contact Form</ModalHeader>
                 <ModalBody>
-                    <Input type="text" name="user_name" label="Name" placeholder="Joey Blogs" isRequired />
+                    <Input type="text" name="user_name" label="Nom" placeholder="Joey Blogs" isRequired />
                     <Input type="email" name="user_email" label="Email" placeholder="name@example.com" isRequired />
-                    <Textarea label="Message" placeholder="Enter your message" name="message" isRequired />
+                    <Textarea label="Message" placeholder="Entrer ton message" name="message" isRequired />
                 </ModalBody>
                 <ModalFooter>
                   <Button color="danger" variant="light" onPress={onClose}>
-                    Cancel
+                    Annuler
                   </Button>
-                  <Button color='primary' type="submit" onPress={onClose} value="Send">Send</Button>
+                  <Button color='primary' type="submit" onPress={onClose} value="Send">Envoyer</Button>
                 </ModalFooter>
               </form>
             </>

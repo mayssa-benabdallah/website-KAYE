@@ -79,8 +79,8 @@ async function fetchGraphQL(query: string, preview = false, variables?: any): Pr
         }`,
       },
       body: JSON.stringify({ query, variables }),
-      cache: 'force-cache', //use force-cache or no-store for SSR
-      next: { tags: ['posts'] }, // on demand revalidation
+      cache: 'force-cache', // use force-cache or no-store for SSR
+      next: { tags: ['posts'] }, // on-demand revalidation
     };
 
     const response = await fetch(
@@ -89,6 +89,14 @@ async function fetchGraphQL(query: string, preview = false, variables?: any): Pr
     );
 
     if (!response.ok) {
+      const errorDetails = {
+        status: response.status,
+        statusText: response.statusText,
+        query,
+        variables,
+      };
+
+      console.error('Error response from Contentful:', errorDetails);
       throw new Error('Failed to fetch data from Contentful');
     }
 
@@ -321,9 +329,7 @@ export async function getProjectsByTechStack(slug: string, isDraftMode: boolean)
 
 //Github API Calls
 
-export function convertToApiUrl(gitHubUrl: string): string {
-  return gitHubUrl.replace('https://github.com/', 'https://api.github.com/repos/');
-}
+
 
 export async function fetchGithubData(apiUrl: string) {
   const res = await fetch(apiUrl, { cache: 'force-cache' });

@@ -12,12 +12,12 @@ export default function Terms() {
           <div className='pb-5 space-y-6'>
             <h2 className='text-2xl font-bold mb-2'>1. Introduction</h2>
             <p className='text-lg'>
-              Welcome to the developer portfolio of Chris Waitt. This website aims to showcase the professional and developmental work of Chris Waitt. By accessing or using this website, you agree to abide by the terms and conditions set out below.
+              Welcome to the developer portfolio of KAYE. This website aims to showcase the professional and developmental work of KAYE. By accessing or using this website, you agree to abide by the terms and conditions set out below.
             </p>
 
             <h2 className='text-2xl font-bold mb-2'>2. Intellectual Property</h2>
             <p className='text-lg'>
-              All content, including text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork, and computer code (collectively, &ldquo;Content&rdquo;), including but not limited to the design, structure, selection, coordination, expression, &ldquo;look and feel&rdquo;, and arrangement of such Content contained on the website is owned, controlled, or licensed by or to Chris Waitt, and is protected by trade dress, copyright, patent, and trademark laws, and various other intellectual property rights.
+              All content, including text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork, and computer code (collectively, &ldquo;Content&rdquo;), including but not limited to the design, structure, selection, coordination, expression, &ldquo;look and feel&rdquo;, and arrangement of such Content contained on the website is owned, controlled, or licensed by or to KAYE, and is protected by trade dress, copyright, patent, and trademark laws, and various other intellectual property rights.
             </p>
 
             <h2 className='text-2xl font-bold mb-2'>3. Restrictions</h2>
@@ -32,7 +32,7 @@ export default function Terms() {
 
             <h2 className='text-2xl font-bold mb-2'>4. Limitation of Liability</h2>
             <p className='text-lg'>
-              Chris Waitt, nor any of his officers, directors, and employees, shall be held liable for anything arising out of or in any way connected with your use of this website. Chris Waitt shall not be held liable for any indirect, consequential, or special liability arising out of or in any way related to your use of this website.
+              KAYE, nor any of his officers, directors, and employees, shall be held liable for anything arising out of or in any way connected with your use of this website. KAYE shall not be held liable for any indirect, consequential, or special liability arising out of or in any way related to your use of this website.
             </p>
 
             <h2 className='text-2xl font-bold mb-2'>5. Severability</h2>
@@ -42,12 +42,12 @@ export default function Terms() {
 
             <h2 className='text-2xl font-bold mb-2'>6. Variation of Terms</h2>
             <p className='text-lg'>
-              Chris Waitt is permitted to revise these terms at any time as he sees fit, and by using this website, you are expected to review these terms on a regular basis.
+              KAYE is permitted to revise these terms at any time as he sees fit, and by using this website, you are expected to review these terms on a regular basis.
             </p>
             
             <h2 className='text-2xl font-bold mb-2'>7. Entire Agreement</h2>
             <p className='text-lg'>
-              These terms, including any legal notices and disclaimers contained on this website, constitute the entire agreement between Chris Waitt and you in relation to your use of this website and supersede all prior agreements and understandings.
+              These terms, including any legal notices and disclaimers contained on this website, constitute the entire agreement between KAYE and you in relation to your use of this website and supersede all prior agreements and understandings.
             </p>
 
             <div className='mt-8'>

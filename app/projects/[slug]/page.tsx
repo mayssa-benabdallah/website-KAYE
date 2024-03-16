@@ -11,7 +11,6 @@ import { Image } from "@nextui-org/image";
 import {
   getAllProjects,
   getProjectAndMoreProjects,
-  convertToApiUrl,
   fetchGithubData,
   fetchLatestCommitDetails,
 } from '@/lib/api';
@@ -47,7 +46,7 @@ export async function generateMetadata(
       title: project.projectTitle,
       description: project.shortDescription,
       url: `/projects/${params.slug}`,
-      siteName: 'Chris Waitt - Full Stack Developer Portfolio',
+      siteName: 'KAYE',
       images: [
         {
           url: ogImageUrl,
@@ -58,7 +57,7 @@ export async function generateMetadata(
       locale: 'en_GB',
       type: 'article',
       publishedTime: project.date,
-      authors: 'Chris Waitt',
+      authors: 'KAYE',
     },
     twitter: {
       card: 'summary_large_image',
@@ -89,11 +88,7 @@ export default async function ProjectPage({ params }: { params: { slug: string }
   
   if (!project) return notFound();
 
-  const githubApiUrl = convertToApiUrl(project.gitHubLink);
-  const [githubData, latestCommitDetails] = await Promise.all([
-    fetchGithubData(githubApiUrl),
-    fetchLatestCommitDetails(githubApiUrl),
-  ]);
+ 
 
   return (
     <PageSection id='project'>
@@ -114,12 +109,7 @@ export default async function ProjectPage({ params }: { params: { slug: string }
 
         <Divider className="my-10" />
 
-        <GithubData 
-          githubData={githubData} 
-          demoUrl={project.demoUrl} 
-          latestCommit={latestCommitDetails.message}
-          latestCommitUrl={latestCommitDetails.url}
-        />
+       
         
         <TechStacks techStacks={project.techStacksCollection.items} />
 

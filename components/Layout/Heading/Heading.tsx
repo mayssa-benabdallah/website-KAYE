@@ -10,8 +10,8 @@ export default function Heading({ title, className = '' }) {
             md:mb-10
             lg:mb-10
             ${className}
-        `}>
-            <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#FF1CF7] to-[#b249f8]">
+        `} style={{ textAlign: 'center' }}>
+            <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#feba3d] to-[#feba3d]" style={{ fontFamily: 'Montserrat', fontSize: '30px' }}>
                 {title}
             </span>
         </h1>
